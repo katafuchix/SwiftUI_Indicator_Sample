@@ -11,6 +11,7 @@
 		315AFDB3276589C500D6CA9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315AFDB2276589C500D6CA9C /* ContentView.swift */; };
 		315AFDB5276589C700D6CA9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 315AFDB4276589C700D6CA9C /* Assets.xcassets */; };
 		315AFDB8276589C700D6CA9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 315AFDB7276589C700D6CA9C /* Preview Assets.xcassets */; };
+		315AFDBF276589E000D6CA9C /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315AFDBE276589E000D6CA9C /* ActivityIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		315AFDB2276589C500D6CA9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		315AFDB4276589C700D6CA9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		315AFDB7276589C700D6CA9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		315AFDBE276589E000D6CA9C /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				315AFDB0276589C500D6CA9C /* SwiftUI_Indicator_SampleApp.swift */,
 				315AFDB2276589C500D6CA9C /* ContentView.swift */,
+				315AFDBE276589E000D6CA9C /* ActivityIndicator.swift */,
 				315AFDB4276589C700D6CA9C /* Assets.xcassets */,
 				315AFDB6276589C700D6CA9C /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				315AFDB3276589C500D6CA9C /* ContentView.swift in Sources */,
+				315AFDBF276589E000D6CA9C /* ActivityIndicator.swift in Sources */,
 				315AFDB1276589C500D6CA9C /* SwiftUI_Indicator_SampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,9 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var isLoading: Bool = false
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+            ActivityIndicator(style: .large, isLoading: isLoading)
+            
+            Button(action: {
+                isLoading = !isLoading
+            }) {
+                Text("Button")
+            }
+
+        }
     }
 }
 
